@@ -1,0 +1,13 @@
+
+body{
+    background-image: url(http://www.rbcverviers.com/wp-content/uploads/2014/11/Background.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+nav{
+    text-align: left;
+    width: 20%;
+}

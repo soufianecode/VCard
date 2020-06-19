@@ -1,13 +1,59 @@
 
 body{
-    background-image: url(http://www.rbcverviers.com/wp-content/uploads/2014/11/Background.jpg);
-    color: aliceblue;
+    /*background-image: url(http://www.rbcverviers.com/wp-content/uploads/2014/11/Background.jpg);*/
     background-repeat: no-repeat;
     text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    background-image: url(https://www.bel-rive.com/wp-content/uploads/2018/12/fond-bleu.jpg);
 
 }
 
 nav{
     text-align: left;
     width: 20%;
+    border: 1px solid black;
+    padding:10px;
+    width: 500px;
+    border-top: none;
+    border-bottom: none;
+    background-color: rgb(255, 212, 176);
+    text-align: center;
+    
+
+}
+nav img{
+    width: 20px;
+}
+.network{
+    display: grid;
+    grid-template-columns: 1fr 1fr fr;
+}
+
+header{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    margin-top: 100px;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(255, 212, 176);
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+section{
+    width: 520px;
+    border: 1px solid black;
+    text-align: center;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(255, 212, 176);
+
 }
